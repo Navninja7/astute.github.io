@@ -3,6 +3,21 @@
     margin: 0;
     padding: 0;
 }
+p{
+    font-weight: 700;
+    padding: 50px;
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+    margin-left: 10px;
+  padding: 5px;
+}
+.down {
+    transform: rotate(45deg);
+}
 body{
     background-image: url(demo.gif);
     background-repeat:no-repeat;
@@ -13,10 +28,6 @@ body{
     color:white;
     background-color: #24252A;
     transition: all 0.5s;
-}
-div1{
-    height: 300px;
-    width: auto;    
 }
 p{
     font-size:28px;
@@ -115,10 +126,14 @@ header{
     transition: all 0.2s;
 }
 .dropdown-content li{
+    display: block;
     padding: 10px 0px;
 }
 
 .button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+.button:hover #arrow1{
     background-color: rgba(0,136,169,0.8);
 }
 
